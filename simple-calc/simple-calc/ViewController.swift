@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var numberList: [Int] = []
     var actionList: [String] = []
     var resultOperation: Int? = nil
+    var historyList: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,15 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // This function is called before the segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // get a reference to the second view controller
+        let historyViewController = segue.destination as! HistoryViewController
+        
+        // set a variable in the second view controller with the data to pass
+        historyViewController.data = historyList
     }
     
     
@@ -142,6 +152,8 @@ class ViewController: UIViewController {
         }
         self.actionList = []
         self.numberList = []
+        let textToList = String("\(self.numberLabel!.text!) = \(self.resultOperation!)")
+        self.historyList.append(textToList!)
         self.numberLabel.text = String(self.resultOperation!)
     }
     

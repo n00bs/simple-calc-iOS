@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4619B7BE1EB59C0800B056AF /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619B7BD1EB59C0800B056AF /* HistoryViewController.swift */; };
 		467061801EA4679D005AEB60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670617F1EA4679D005AEB60 /* AppDelegate.swift */; };
 		467061821EA4679D005AEB60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467061811EA4679D005AEB60 /* ViewController.swift */; };
 		467061851EA4679D005AEB60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467061831EA4679D005AEB60 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4619B7BD1EB59C0800B056AF /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		4670617C1EA4679D005AEB60 /* simple-calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4670617F1EA4679D005AEB60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		467061811EA4679D005AEB60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				4670617F1EA4679D005AEB60 /* AppDelegate.swift */,
 				467061811EA4679D005AEB60 /* ViewController.swift */,
 				467061831EA4679D005AEB60 /* Main.storyboard */,
+				4619B7BD1EB59C0800B056AF /* HistoryViewController.swift */,
 				467061861EA4679D005AEB60 /* Assets.xcassets */,
 				467061881EA4679D005AEB60 /* LaunchScreen.storyboard */,
 				4670618B1EA4679D005AEB60 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4619B7BE1EB59C0800B056AF /* HistoryViewController.swift in Sources */,
 				467061821EA4679D005AEB60 /* ViewController.swift in Sources */,
 				467061801EA4679D005AEB60 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				467061901EA4679D005AEB60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
